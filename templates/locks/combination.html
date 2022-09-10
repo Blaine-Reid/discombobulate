@@ -1,0 +1,68 @@
+
+<form class="flexcol">
+  <div class="myCenter">
+    <div id='lock' data-dials='3'></div>
+  </div>
+</form>
+
+
+
+new Dialog({
+  title: 'Simple Lock',
+  content: content,
+  options:{
+    width: 1800
+  },
+  buttons: {}
+  //   no: {
+  //     icon: '<i class="fas fa-times"></i>',
+  //     label: 'Cancel'
+  //   },
+  //   yes: {
+  //     icon: '<i class="fas fa-check"></i>',
+  //     label: 'Yes',
+  //     callback: async function(html) {
+  //       console.log('success')
+  //       // let pin1 = html.find('[name="pin1"]').val();
+  //       // let pin2 = html.find('[name="pin2"]').val();
+  //       // let pin3 = html.find('[name="pin3"]').val();
+  //       // if(pin1 == setPin1 && pin2 == setPin2 && pin3 == setPin3){
+  //       //   // door unlocks
+  //       //   await door.data.update({
+  //       //     "ds": 0
+  //       //   })
+  //       //   setTimeout(()=>{
+  //       //     new Dialog({
+  //       //       title: 'Success',
+  //       //       content: `The Door opens with a click`,
+  //       //       buttons: {
+  //       //         ok: {
+  //       //           icon: '<i class="fas fa-check"></i>',
+  //       //           label: 'Ok',
+  //       //         },
+  //       //       }
+  //       //     }).render(true);
+  //       //   },500)
+  //       // } else{
+  //       //   //nothing or trap
+  //       //   setTimeout(()=>{
+  //       //     new Dialog({
+  //       //       title: 'Fail',
+  //       //       content: `Darts shot forth from holes in the door`,
+  //       //       buttons: {
+  //       //         ok: {
+  //       //           icon: '<i class="fas fa-check"></i>',
+  //       //           label: 'Ok',
+  //       //         },
+  //       //       }
+  //       //     }).render(true);
+  //       //   },500)
+  //       // }
+  //     }
+  //   },
+  // },
+  // default: 'yes',
+  // close: () => {
+  //   console.log('Example Dialog Closed');
+  // }
+}).render(true)

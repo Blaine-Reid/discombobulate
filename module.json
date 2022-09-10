@@ -1,0 +1,33 @@
+{
+  "name": "discombobulate",
+  "title": "Discombobulate",
+  "description": "Puzzles and Traps for your players.",
+  "version": "1.0.0",
+  "library": "false",
+  "manifestPlusVersion": "1.0.0",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "10",
+  "author": "UnCaged1",
+  "esmodules": [
+  ],
+  "scripts": [
+    "scripts/locks.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en-EN.json"
+    }
+  ],
+  "packs": [
+  ],
+  "dependencies": [
+  ],
+  "socket": true,
+  "url": "https://github.com/Blaine-Reid/puzzlesTraps",
+  "manifest": "",
+  "download": "https://github.com/Blaine-Reid/puzzlesTraps/archive/refs/heads/main.zip",
+  "readme": "",
+  "bugs": ""
+}
