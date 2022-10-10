@@ -8,12 +8,6 @@
  */
 
 class Lock {
-  constructor(type="number", pin) {
-    this.isOpen = false
-    this.type = type
-    this.pin = pin.split()
-  }
-
   static ID = 'locks';
   
   static FLAGS = {
