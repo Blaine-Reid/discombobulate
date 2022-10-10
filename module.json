@@ -13,6 +13,9 @@
   "scripts": [
     "scripts/locks.js"
   ],
+  "styles":[
+    "styles/lock.css"
+  ],
   "languages": [
     {
       "lang": "en",
